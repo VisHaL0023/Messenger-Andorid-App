@@ -4,6 +4,8 @@
 This is my college project. It's look like instagram(user can message, post, call, add status etc.).
 Messages are encrypted using AES algorithm which make more secure conversation between end user. All data are hosted on firebase. which provide realtime database to access it form anywhere.
 
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
+
 
 ## Demo
 
@@ -41,6 +43,7 @@ Features
 - Reactions on Messages
 - Block/Unblock any user
 - Fingerprint lock
+- Delete for everyone
 
 ## Build and Run
 
