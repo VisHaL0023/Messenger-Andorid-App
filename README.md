@@ -11,8 +11,10 @@ Messages are encrypted using AES algorithm which make more secure conversation b
 
 Some Sample images of app are -
 
-![PicsArt_03-01-11 25 01](https://user-images.githubusercontent.com/73978467/160288089-5c4f2642-da3f-4929-8eb7-822d4d31ca88.jpg)
-![PicsArt_03-01-11 25 36](https://user-images.githubusercontent.com/73978467/160288094-e879fe83-17ef-4307-9009-a6f10998573b.jpg)
+<img src="https://user-images.githubusercontent.com/73978467/160288089-5c4f2642-da3f-4929-8eb7-822d4d31ca88.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
+
+<img src="https://user-images.githubusercontent.com/73978467/160288094-e879fe83-17ef-4307-9009-a6f10998573b.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
+
 <img src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/73978467/160288096-e151a419-a825-4d1a-8466-e2b353e41021.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
@@ -24,8 +26,6 @@ Some Sample images of app are -
 <img src="https://user-images.githubusercontent.com/73978467/160288100-5fa78971-da0b-4043-83c4-d4e469d1c6dd.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
 
 <img src="https://user-images.githubusercontent.com/73978467/160288102-fa3e81b1-5cf5-4ee5-a47b-35663eb65748.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
-
-<img src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
 
 
 ## Features
