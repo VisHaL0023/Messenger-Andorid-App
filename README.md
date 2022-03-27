@@ -11,9 +11,9 @@ Messages are encrypted using AES algorithm which make more secure conversation b
 
 Some Sample images of app are -
 
-<img src="https://user-images.githubusercontent.com/73978467/160288089-5c4f2642-da3f-4929-8eb7-822d4d31ca88.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="400" height="200" />
+<img src="https://user-images.githubusercontent.com/73978467/160288089-5c4f2642-da3f-4929-8eb7-822d4d31ca88.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="400" height="250" />
 
-<img src="https://user-images.githubusercontent.com/73978467/160288094-e879fe83-17ef-4307-9009-a6f10998573b.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="400" height="200" />
+<img src="https://user-images.githubusercontent.com/73978467/160288094-e879fe83-17ef-4307-9009-a6f10998573b.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="400" height="250" />
 
 <img src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" data-canonical-src="https://user-images.githubusercontent.com/73978467/160288104-e80521da-c3c7-4f3d-bfc0-fa9cae47cef2.jpg" width="200" height="400" />
 
