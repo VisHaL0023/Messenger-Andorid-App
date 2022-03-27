@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vishal.chitchat"
+    tools:ignore="ExtraText">
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher1_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WhatsAppClone"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".Activities.editPrivacy"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.privacy"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.updateProfileDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.imageViewer"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.GroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.userData"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.userProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.OutgoingInvitationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.IncommingInvitationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.chatActivity"
+            android:theme="@style/Theme.WhatsAppClone.noActionBar">
+
+            <!-- for setting the new theme for chat activity with no action bar on top -->
+        </activity>
+        <activity android:name=".Activities.setUpProfileActivity" />
+        <activity
+            android:name=".Activities.otpActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".Activities.PhoneNumberActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".Activities.MainActivity" />
+
+        <service
+            android:name=".Firebase.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- This is For the Sending Notifications to App -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_send" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/green" />
+    </application>
+
+</manifest>

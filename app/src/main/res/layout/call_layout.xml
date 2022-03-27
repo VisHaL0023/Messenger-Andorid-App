@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="15sp"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="0.6dp"
+    tools:context=".Activities.OutgoingInvitationActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/callerprofileImg"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/avatar"
+        android:layout_margin="@dimen/_2sdp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calleruserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="Sample Name"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/callerprofileImg"
+        app:layout_constraintTop_toTopOf="@+id/callerprofileImg" />
+
+    <TextView
+        android:id="@+id/lastCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_call_yet"
+        android:gravity="center"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="@+id/calleruserName"
+        app:layout_constraintTop_toBottomOf="@+id/calleruserName" />
+
+    <LinearLayout
+        android:id="@+id/callIconContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/callImageButtom"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/outline_local_phone_24"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/videoCallImageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_margin="@dimen/_8sdp"
+        android:src="@drawable/outline_video_call_24"
+         />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
+
+

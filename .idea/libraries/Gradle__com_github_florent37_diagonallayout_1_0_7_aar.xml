@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:diagonallayout:1.0.7@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/8f4b076ba0b24933036659893d90906f/transformed/jetified-diagonallayout-1.0.7/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/8f4b076ba0b24933036659893d90906f/transformed/jetified-diagonallayout-1.0.7/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/8f4b076ba0b24933036659893d90906f/transformed/jetified-diagonallayout-1.0.7/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/8f4b076ba0b24933036659893d90906f/transformed/jetified-diagonallayout-1.0.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.florent37/diagonallayout/1.0.7/ca8874bd5aa58fedf1cc5d2b8cd9ca9fe9b89e4a/diagonallayout-1.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.florent37/diagonallayout/1.0.7/e532a5092f4199402e323f9f91107a9bd4fc5a8d/diagonallayout-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="10dp"
+    android:elevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.StatusViewer">
+
+        <TextView
+            android:id="@+id/callheadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_outline"
+            android:padding="4dp"
+            android:text="Status"
+            android:textColor="@color/purple_light"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold" />
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/statusList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/callheadline"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:padding="@dimen/_5sdp"
+            app:shimmer_demo_angle="20"
+            app:shimmer_demo_child_count="10"
+            app:shimmer_demo_grid_child_count="2"
+            app:shimmer_demo_layout_manager_type="linear_vertical"
+            tools:listitem="@layout/item_status" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/_24sdp"
+            android:layout_marginRight="@dimen/_24sdp"
+            android:layout_marginBottom="@dimen/_60sdp"
+            android:backgroundTint="@color/green"
+            android:contentDescription="App Name"
+            android:src="@drawable/ic_add"
+            app:tint="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/_24sdp"
+            android:layout_marginBottom="148dp"
+            android:backgroundTint="@color/green"
+            android:contentDescription="Camera"
+            android:src="@drawable/photo_camera"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

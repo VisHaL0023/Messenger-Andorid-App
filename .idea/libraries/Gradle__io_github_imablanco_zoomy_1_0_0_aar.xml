@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.imablanco:zoomy:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/b8fb8267c81378936ffd5f21bf4c7350/transformed/jetified-zoomy-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/b8fb8267c81378936ffd5f21bf4c7350/transformed/jetified-zoomy-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/b8fb8267c81378936ffd5f21bf4c7350/transformed/jetified-zoomy-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.github.imablanco/zoomy/1.0.0/bc9d939cecf1c21930b97cae413cc03b79d4da55/zoomy-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.github.imablanco/zoomy/1.0.0/3faf86f4a5ec7fae0c2fa52eb313f2112a5d05a/zoomy-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

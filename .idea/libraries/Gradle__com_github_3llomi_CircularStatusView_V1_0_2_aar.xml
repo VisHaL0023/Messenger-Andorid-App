@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.3llomi:CircularStatusView:V1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/08a49568f9f0d2aea23a98c1fb0efa52/transformed/jetified-CircularStatusView-V1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/08a49568f9f0d2aea23a98c1fb0efa52/transformed/jetified-CircularStatusView-V1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/08a49568f9f0d2aea23a98c1fb0efa52/transformed/jetified-CircularStatusView-V1.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/efc2c0fce2760119e3593bda035afc59/transformed/jetified-CircularStatusView-V1.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/efc2c0fce2760119e3593bda035afc59/transformed/jetified-CircularStatusView-V1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/efc2c0fce2760119e3593bda035afc59/transformed/jetified-CircularStatusView-V1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.3llomi/CircularStatusView/V1.0.2/a7762acff2b788c2d4bf597d4e2451ae40b2fc96/CircularStatusView-V1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

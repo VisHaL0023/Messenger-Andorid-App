@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:17.0.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/777c55d3efb100b0eeb124080ed37d14/transformed/jetified-play-services-tasks-17.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/a948cce27e01fb21de5eca8c16dc8c42/transformed/jetified-play-services-tasks-17.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/a948cce27e01fb21de5eca8c16dc8c42/transformed/jetified-play-services-tasks-17.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/a948cce27e01fb21de5eca8c16dc8c42/transformed/jetified-play-services-tasks-17.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-tasks/17.0.2/351bbec24656496690ebe09be7cdac31549a54fc/play-services-tasks-17.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
